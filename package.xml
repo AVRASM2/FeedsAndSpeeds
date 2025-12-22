@@ -1,20 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<package format="1">
-  <name>FeedsAndSpeeds</name>
-  <description>A FreeCAD CAM Addon to help generate basic feeds and speeds for machining.</description>
-  <version>0.6</version>
-  <maintainer email="s.d.wood.82@googlemail.com">Daniel Wood</maintainer>
-  <license file="LICENSE">LGPL-2.1</license>
-  <url type="repository" branch="master">https://github.com/dubstar-04/FeedsAndSpeeds</url>
-  <url type="readme">https://github.com/dubstar-04/FeedsAndSpeeds/blob/master/README.md</url>
+<?xml
+    version = '1.0'
+    encoding = 'UTF-8'
+    standalone = 'no'
+?>
+<package
+    format = '1'
+    xmlns = 'https://wiki.freecad.org/Package_Metadata'
+>
 
-  <content>
-    <workbench>
-      <classname>FeedsAndSpeeds</classname>
-      <subdirectory>./</subdirectory>
-      <icon>Icons/CAM_FeedsAndSpeeds.svg</icon>
-      <freecadmin>1.0.0</freecadmin>
-    </workbench>
-  </content>
+    <!--[ Versions ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <freecadmin>1.0.0</freecadmin>
+    <version>0.6</version>
+    <date>2024-12-12</date>
+
+    <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <description>CAM addon to help generate basic feeds and speeds for machining.</description>
+    <name>Feeds &amp; Speeds</name>
+
+    <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <tag>Machining</tag>
+    <tag>Speed</tag>
+    <tag>Feed</tag>
+    <tag>CAM</tag>
+
+    <!--[ Maintainers ]――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <maintainer
+        email = 's.d.wood.82@googlemail.com'
+    >Daniel Wood</maintainer>
+
+    <!--[ Authors ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <author
+        email = 's.d.wood.82@googlemail.com'
+    >Daniel Wood</author>
+
+    <!--[ Licenses ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <license
+        file = 'LICENSE'
+    >LGPL-2.1-or-later</license>
+
+    <!--[ Icon ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <icon>Icons/CAM_FeedsAndSpeeds.svg</icon>
+
+    <!--[ Urls ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <url
+        type = 'documentation'
+    >https://github.com/dubstar-04/FeedsAndSpeeds</url>
+
+    <url
+        branch = 'master'
+        type = 'repository'
+    >https://github.com/dubstar-04/FeedsAndSpeeds</url>
+
+    <url
+        type = 'bugtracker'
+    >https://github.com/dubstar-04/FeedsAndSpeeds/issues</url>
+
+    <url
+        type = 'readme'
+    >https://github.com/dubstar-04/FeedsAndSpeeds/blob/master/README.md</url>
+
+    <!--[ Content ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <content>
+        <workbench>
+            <subdirectory>.</subdirectory>
+            <classname>FeedsAndSpeeds</classname>
+        </workbench>
+    </content>
 
 </package>
