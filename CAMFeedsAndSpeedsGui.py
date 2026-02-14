@@ -104,12 +104,11 @@ class FeedSpeedPanel():
             else:
                 QtGui.QMessageBox.warning(FreeCADGui.getMainWindow(), "Warning", "Material is missing path parameters")
 
-
     def set_tool_properties(self, dia=6, flutes=2, chipload=None, material="HSS"):
-        print("dia", dia)
-        print("flutes", flutes)
-        print("chipload", chipload)
-        print("material", material)
+        # print("dia", dia)
+        # print("flutes", flutes)
+        # print("chipload", chipload)
+        # print("material", material)
         """set the tool properties for the selected tool"""
         self.form.toolDia_LE.setText(str(dia))
         self.form.flutes_SB.setValue(flutes)
@@ -252,7 +251,7 @@ class FeedSpeedPanel():
         self.form.hp_result.setText("-")
         if Hp is not None:
             watts = Hp * 745.69
-            self.form.hp_result.setText(str(round(Hp, 2)) + " hp / " + str(round(watts, 4)) + " watts")
+            self.form.hp_result.setText(str(round(Hp, 2)) + " hp / " + str(round(watts, 3)) + " watts")
 
     def show(self):
         """show the form"""
