@@ -2,6 +2,9 @@
 A FreeCAD CAM Addon to help generate basic feeds and speeds for machining.  
 
 ## my Improvements:
+### IMPORTANT:
+do NOT "Auto-Load" the CAM/Path Workbench, or this Addon will NEVER Show in the Menue!!!
+
 ### 1st:
 FC1.1 does not provide "BitShape" anymore, so the "Hack to detect Legacy-Tools" fires and prevent it from working propperly
 as per the original programmer's comment, I commented-out the hack to disable it to make it work propperly!
